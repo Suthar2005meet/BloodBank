@@ -19,6 +19,8 @@ export const Home = () => {
             BloodLink
           </div>
           <nav>
+            <Link to='home' className="text-sm text-neutral-400 hover:text-white px-4 py-2 rounded-lg hover:bg-white/5 transition-all duration-200 font-medium">Home</Link>
+            <Link to='aboutus' className="text-sm text-neutral-400 hover:text-white px-4 py-2 rounded-lg hover:bg-white/5 transition-all duration-200 font-medium">About Us</Link>
             <Link to='contact' className="text-sm text-neutral-400 hover:text-white px-4 py-2 rounded-lg hover:bg-white/5 transition-all duration-200 font-medium">Contact</Link>
           </nav>
         </div>

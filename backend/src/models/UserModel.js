@@ -18,13 +18,13 @@ const UserSchema = new mongoose.Schema({
         enum : ["admin","donor","hospital","staff"]
     },
     phone : {
-        type : Number,
+        type : String,
         required : true
     },
     address : {
         type : String,
         required : true
     }
-})
+},{timestamps:true})
 
 module.exports = mongoose.model('users', UserSchema)

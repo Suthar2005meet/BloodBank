@@ -13,7 +13,7 @@ app.use(cors({
 }));
 
 const UserRoute = require('./src/router/UserRoute')
-app.use('/users',UserRoute)
+app.use('/user',UserRoute)
 
 const PORT = process.env.PORT
 app.listen(PORT,()=>{
